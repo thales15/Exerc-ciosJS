@@ -1,0 +1,49 @@
+:root{
+    --color1: #FE7743;
+    --color2: #EFEEEA ;
+    --color3: #273F4F;
+    --color4: #141414;
+}
+.linha-vertical{
+    border-left: 1px solid black;
+    height: auto;
+    padding: 0;
+    margin-left: 75.484px;
+    margin-right: 0;
+}
+.sumario-divisor{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+.row.sum{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+.sum-titulo{
+    color: var(--color3);
+}
+.sum-li{
+    display: flex;
+    justify-content: center;
+}
+.sum-a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+}
+.sum-a:hover{
+    color: var(--color4);
+    transition: 0.1s;
+}
+
+.border-card{
+    background-color: var(--color3);
+    padding: 50px;
+    border-radius: 50px;
+    border-top-left-radius: 10px;
+    margin-bottom: 50px;
+}

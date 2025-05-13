@@ -1,0 +1,9 @@
+main{
+    min-height: 70vh;
+}
+.formulario{
+    display: flex;
+     justify-content: center; 
+     align-items: center;
+      width: 80%;
+}
